@@ -30,4 +30,6 @@ plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
  
- # https://scds.github.io/github-pages/lesson3.html
+math: mathjax
+ 
+# https://scds.github.io/github-pages/lesson3.html
