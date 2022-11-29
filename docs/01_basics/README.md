@@ -28,6 +28,19 @@ graph TD;
     C-->D;
 ```
 
+This is some text
+
+{: .important-title }
+> My important title
+>
+> A paragraph
+>
+> Another paragraph
+>
+> The last paragraph
+
+
+
 > {: .new }
 > > A paragraph
 > >
