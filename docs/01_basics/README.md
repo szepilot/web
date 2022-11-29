@@ -40,23 +40,7 @@ This is some text
 > The last paragraph
 
 
-
-$~$
-
-$~$
-
-$~$
-
-# [github.com/szepilot/web](https://github.com/szepilot/web/)
-
-$~$
-
-$~$
-
-$~$
-
-
-
+## [github.com/szepilot/web](https://github.com/szepilot/web/)
 
 
 > {: .new }
