@@ -33,4 +33,21 @@ plugins:
  
 math: mathjax
  
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red 
+ 
 # https://scds.github.io/github-pages/lesson3.html
