@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Navigation Structure
+title: Sub menu1
+parent: The basics
 nav_order: 5
 ---
 
