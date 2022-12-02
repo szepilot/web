@@ -1,3 +1,11 @@
+---
+layout: default
+title: The basics
+---
+
+# Navigation Structure
+{: .no_toc }
+
 <details open markdown="block">
   <summary>
     Tartalom
@@ -6,6 +14,8 @@
 1. TOC
 {:toc}
 </details>
+
+---
 
 
 # The basics
