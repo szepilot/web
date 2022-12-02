@@ -1,6 +1,16 @@
-# 1. The basics
+<details open markdown="block">
+  <summary>
+    Tartalom
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+
+# The basics
+
+When a != 0, there are two solutions to (ax^2 + bx + c = 0) and they are 
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
@@ -56,3 +66,21 @@ A paragraph
 
 {: .warning }
 A paragraph
+
+# Another header
+
+Text
+
+## SubA
+
+Text 
+
+
+## Sub B
+Text 
+
+### Sub-Sub B1
+Text 
+
+### Sub-Sub B2
+Text 
