@@ -1,6 +1,15 @@
 
 # Welcome
 
+ :octocat: 
+ :red_circle: 
+ :newspaper: 
+ 
+ 🚗
+ ✅
+ 🔴
+ 
+ 
 ``` cpp
 #include <ros/ros.h>
 #include <pcl_conversions/pcl_conversions.h>
