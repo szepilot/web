@@ -1,13 +1,51 @@
 
 # Welcome
 
- :octocat: 
- :red_circle: 
- :newspaper: 
  
  🚗
  ✅
  🔴
+ 
+ 
+ <table style="width:100%">
+  <tr>
+    <td>Emil</td>
+    <td>
+``` cpp
+#include <ros/ros.h>
+#include <pcl_conversions/pcl_conversions.h>
+#include <pcl/point_cloud.h>
+#include <pcl/point_types.h>
+#include <pcl/filters/voxel_grid.h>
+#include <pcl/filters/crop_box.h>
+
+ros::Publisher pub;
+ros::Publisher marker_pub;
+```
+
+   
+   </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>
+``` cpp
+    // Initialize ROS
+    ros::init(argc, argv, "lidar_filt");
+    ros::NodeHandle nh;
+    // Create a ROS subscriber for the input point cloud
+    ros::Subscriber sub = nh.subscribe("points_raw", 1, cloud_cb);
+
+    // Create a ROS publisher for the output point cloud
+    pub = nh.advertise<pcl::PCLPointCloud2>("points_filt", 1);
+
+    // Spin
+    ros::spin();
+```
+   
+   </td>
+  </tr>
+</table>
  
  
 ``` cpp
