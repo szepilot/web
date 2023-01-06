@@ -2,6 +2,20 @@
 # Welcome
 
  
+ For all $$x$$ and $$y$$ in $$\mathbb{R}^k$$ it is true 
+ 
+ 
+ A szabályzási lánconál a következő jelöléseket használjuk:
+- $$r(t)$$: a célérték, avagy referenciajel
+- $$y(t)$$: a visszacsatolt érték.
+- $$m(t)$$: a valós rendszeren mért érték. Megjegyzés: sokszor az érzékelőt ideálisnak tekintjük, így $$y(t)=m(t)$$, és így a visszacsatolt érték egyben az absztrakt rendszer kimenete.
+- $$e(t)$$: hibajel, a szabályzó bemenete.
+- $$i(t)$$: a szabályzó által meghatározott beavatkozó jel.
+- $$f(t)$$: előrecsatolt ág.
+- $$u(t)$$: a rendszer bemenete
+- $$d(t)$$: külső zavarok.
+ 
+ 
  🚗
  ✅
  🔴
