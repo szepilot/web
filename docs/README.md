@@ -15,6 +15,14 @@
 - $$u(t)$$: a rendszer bemenete
 - $$d(t)$$: külső zavarok.
  
+Melodic{: .label .label-green }
+
+Noetic{: .label .label-purple }
+
+Humble{: .label .label-yellow }
+
+Red{: .label .label-red }
+Blue{: .label .label-blue }
  
  🚗
  ✅
