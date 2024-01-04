@@ -1,6 +1,8 @@
 ---
 layout: default
 title: The basics
+nav_order: 1
+permalink: /first/
 ---
 
 # Navigation Structure
