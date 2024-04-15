@@ -42,7 +42,7 @@ id3[topic]
 id1 --> id3 --> id2
 ```
 
-```ruby
+```javascript
 graph TD;
 id1([node1])
 id2([node2])
@@ -60,7 +60,7 @@ id3[topic]
 id1 --> id3 --> id2
 ```
 
-```ruby
+```javascript
 graph TD;
 id1([node1]):::red
 id2([node2]):::red
@@ -87,7 +87,7 @@ classDef white fill:#ffffff,stroke:#152742,stroke-width:2px,color:#152742
 classDef red fill:#ef4638,stroke:#152742,stroke-width:2px,color:#fff
 ```
 
-```ruby
+```javascript
 graph LR;
 
 gen([ /gen_node]) --> sine
@@ -110,7 +110,7 @@ rand --> sum
 in[ /in<br/>std_msgs/Float32] --> sum
 ```
 
-```ruby
+```javascript
 graph LR
 
 gen([ /gen_node]):::red --> sine
@@ -145,7 +145,7 @@ classDef red fill:#ef4638,stroke:#152742,stroke-width:2px,color:#fff
 ```
 
 
-```ruby
+```javascript
 graph LR
 
 gen([ /gen_node]) --> sine
@@ -186,7 +186,7 @@ class rand,sine,in,out light
 ```
 
 
-```ruby
+```javascript
 flowchart LR
 
 A{{max_deg</br>param}}:::gray --> D([display_tree</br>node]):::gray
@@ -221,7 +221,7 @@ classDef red fill:#ef4638,stroke:#152742,stroke-width:2px,color:#fff
 
 ```
 
-``` ruby
+``` javascript
 flowchart TD
     S[State Machine <br>/plan_state_machine] -.->|/plan_state*| LS[LIDAR segementation<br>/prcp_ground_obstacle_segm_lidar]
     S -.-> CS[Cone detection camera<br> and de-projection]
