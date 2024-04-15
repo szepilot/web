@@ -23,7 +23,7 @@ title: Mermaid gráf
 
 ## Példa
 
-``` ruby
+``` javascript
 graph LR;
 id1([node1])
 id2([node2])
